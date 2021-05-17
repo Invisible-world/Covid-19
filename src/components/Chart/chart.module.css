@@ -1,0 +1,14 @@
+.container {
+  width: 60%;
+  justify-content: center;
+  display: flex;
+  margin: auto;
+}
+@media screen and (max-width: 480px) {
+  .container {
+    width: 90%;
+    justify-content: center;
+    display: flex;
+    margin: 0;
+  }
+}
